@@ -140,7 +140,12 @@ const Navbaar = () => {
           <div className="navlogo">
             <NavLink to="/">
               {" "}
-              <img src="./amazon_PNG25.png" alt="logo" />{" "}
+              <img
+                width="50"
+                height="48"
+                src="https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36682/36682.png"
+                alt="shopaholic"
+              />
             </NavLink>
           </div>
           <div className="nav_searchbaar">

@@ -6,6 +6,8 @@ section{
 }
 
 .sign_container{
+    position: relative;
+    background-color: #bcc3c8;
     width: 85%;
     margin: auto;
     display: flex;

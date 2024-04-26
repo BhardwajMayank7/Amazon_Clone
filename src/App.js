@@ -25,7 +25,6 @@ function App() {
       {data ? (
         <>
           <Navbaar />
-          <Newnav />
           <Switch>
             <Route exact path="/">
               <Maincomp />

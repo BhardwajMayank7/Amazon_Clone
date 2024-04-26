@@ -1,11 +1,11 @@
 footer{
     position: relative;
     top: 60px;
-    background-color:#232F3E;
+    background-color:  #b82424
 }
 
 footer .footer_container{
-    color: #fff;
+    color: #171c18;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
