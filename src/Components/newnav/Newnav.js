@@ -15,7 +15,7 @@ const Newnav = () => {
                     <p>Electronics</p>
                     <p>Prime</p>
                     <p>Today's Deals</p>
-                    <p>Amazon Pay</p>
+                    <p>Ecommerce Pay</p>
                 </div>
                 <div className="right_data">
                     <img src="nav.jpg" alt="navdata" />

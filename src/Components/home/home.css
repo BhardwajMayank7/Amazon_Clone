@@ -2,9 +2,9 @@
     width: 100%;
     position: relative;
     top: 60px;
-    background-color: #e7e7e7;
+    background-color: #0d09764c;
     min-height: calc(100vh - 60px);
-    border-bottom: 2px solid rgb(199, 199, 199);
+    border-bottom: 2px solid rgb(150, 129, 129);
     margin-bottom: 10px;
 }
 
