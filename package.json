@@ -2,9 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "20.x"
-  },
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
@@ -32,7 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install && npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
