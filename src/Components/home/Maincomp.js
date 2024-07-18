@@ -10,7 +10,7 @@ import { useSelector, useDispatch } from "react-redux";
 const Maincomp = () => {
 
     const { products } = useSelector(state => state.getproductsdata);
-    // console.log(products);
+    console.log("products :  ",products);
 
     const dispatch = useDispatch();
 

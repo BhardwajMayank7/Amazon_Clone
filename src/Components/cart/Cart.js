@@ -70,7 +70,8 @@ const Cart = () => {
     if (check.status !== 201) {
       alert("no data available");
     } else {
-      // console.log("cart add ho gya hain");
+      console.log("cart add ho gya hain");
+      console.log("data1  :  ",data1)
       setAccount(data1);
       history.push("/buynow");
     }

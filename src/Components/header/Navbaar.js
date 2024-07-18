@@ -58,7 +58,7 @@ const Navbaar = () => {
 
   const getdetailsvaliduser = async () => {
     const res = await fetch(
-      //   `${process.env.REACT_APP_SERVER_HOSTNAME}/validuser`,
+        `${process.env.REACT_APP_SERVER_HOSTNAME}/validuser`,
       {
         method: "GET",
         headers: {
@@ -70,7 +70,7 @@ const Navbaar = () => {
     );
 
     const data = await res.json();
-    // console.log(data);
+    console.log("data  :  ",data);
 
     if (res.status !== 201) {
       console.log("first login");
@@ -200,7 +200,6 @@ const Navbaar = () => {
                 <Badge badgeContent={0} color="secondary">
                   <i className="fas fa-shopping-cart" id="icon"></i>
                 </Badge>
-                <p>Cart</p>
               </div>
             </NavLink>
           )}
@@ -229,7 +228,7 @@ const Navbaar = () => {
               </MenuItem>
               {account ? (
                 <MenuItem
-                  onClick={handleClose}
+                  // onClick={handleClose}
                   style={{ margin: 10 }}
                   onClick={logoutuser}
                 >

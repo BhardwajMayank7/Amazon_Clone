@@ -51,7 +51,7 @@ const Signup = () => {
       // console.log(data);
 
       if (res.status === 422 || !data) {
-        toast.error("Invalid Details 👎!", {
+        toast.error(data.error || "Invalid Details 👎!", {
           position: "top-center",
         });
       } else {
@@ -69,6 +69,9 @@ const Signup = () => {
       }
     } catch (error) {
       console.log("front end ka catch error hai" + error.message);
+      toast.error("Something went wrong! Please try again later.", {
+        position: "top-center",
+      });
     }
   };
 
@@ -77,7 +80,6 @@ const Signup = () => {
       <div className="sign_container">
         <div className="sign_header">
           <img
-            style={{ marginBottom: "20px" }}
             src="https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36682/36682.png"
             alt="signupimg"
           />

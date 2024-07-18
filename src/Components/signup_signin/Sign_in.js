@@ -68,7 +68,6 @@ const Sign_in = () => {
       <div className="sign_container">
         <div className="sign_header">
           <img
-            style={{ marginBottom: "20px" }}
             src="https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36682/36682.png"
             alt="signupimg"
           />
