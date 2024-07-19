@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BhardwajMayank7/Amazon_Clone/static/css/main.57554a62.chunk.css",
+    "main.js": "/BhardwajMayank7/Amazon_Clone/static/js/main.e6d20371.chunk.js",
+    "main.js.map": "/BhardwajMayank7/Amazon_Clone/static/js/main.e6d20371.chunk.js.map",
+    "runtime-main.js": "/BhardwajMayank7/Amazon_Clone/static/js/runtime-main.8c58bb27.js",
+    "runtime-main.js.map": "/BhardwajMayank7/Amazon_Clone/static/js/runtime-main.8c58bb27.js.map",
+    "static/css/2.728e9a9a.chunk.css": "/BhardwajMayank7/Amazon_Clone/static/css/2.728e9a9a.chunk.css",
+    "static/js/2.20c79441.chunk.js": "/BhardwajMayank7/Amazon_Clone/static/js/2.20c79441.chunk.js",
+    "static/js/2.20c79441.chunk.js.map": "/BhardwajMayank7/Amazon_Clone/static/js/2.20c79441.chunk.js.map",
+    "index.html": "/BhardwajMayank7/Amazon_Clone/index.html",
+    "static/css/2.728e9a9a.chunk.css.map": "/BhardwajMayank7/Amazon_Clone/static/css/2.728e9a9a.chunk.css.map",
+    "static/css/main.57554a62.chunk.css.map": "/BhardwajMayank7/Amazon_Clone/static/css/main.57554a62.chunk.css.map",
+    "static/js/2.20c79441.chunk.js.LICENSE.txt": "/BhardwajMayank7/Amazon_Clone/static/js/2.20c79441.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/BhardwajMayank7/Amazon_Clone/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c58bb27.js",
+    "static/css/2.728e9a9a.chunk.css",
+    "static/js/2.20c79441.chunk.js",
+    "static/css/main.57554a62.chunk.css",
+    "static/js/main.e6d20371.chunk.js"
+  ]
+}
